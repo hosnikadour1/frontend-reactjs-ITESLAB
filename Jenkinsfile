@@ -9,7 +9,7 @@ pipeline {
     stages {
          stage('Cloning Git') {
       steps {
-        git([url: 'https://github.com/hosnikadour1/ITESLAB-app-reactjs-nodejs-frontend-backend.git', branch: 'main', credentialsId: 'github'])
+        git([url: 'https://github.com/hosnikadour1/app-frontend.git', branch: 'main', credentialsId: 'github'])
  
       }
     }
